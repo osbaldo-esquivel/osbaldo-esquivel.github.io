@@ -1,3 +1,3 @@
 document.getElementById('button').addEventListener('click', function (event) {
-    document.querySelector('test').style.display = '';
+    document.querySelector('test').style.display = 'none';
 });
