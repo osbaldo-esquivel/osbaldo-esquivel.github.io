@@ -146,21 +146,13 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
-    <div class="container">
-        <div class="card">
-            <style>
-                table td,
-                table th {
-                    font-size: smaller;
-                    border: 1px solid black;
-                    line-height: 1.4;
-                    padding: 10px 10px;
-                }
-            </style>
-            <table class="table">
-                <tbody>
+    <div class="container mx-auto pt-12"">
+        <div class="w-full rounded shadow-lg">
+
+            <table class="table table-auto">
+                <thead class="text-gray-300 uppercase bg-gray-50 border dark:bg-gray-700 dark:text-gray-100">
                     <tr>
-                        <th>NFL Bracket ( 19 x $20 = $380)</th>
+                        <th class="px-6 py-3">19 people x $20 = $380</th>
                         <th>1st place $280</th>
                         <th>2nd place $100</th>
                         <th>3rd place $20</th>
@@ -172,20 +164,22 @@
                         <th></th>
                         <th></th>
                     </tr>
-                    <tr>
-                        <td></td>
-                        <td>Wild Card</td>
-                        <td>Divisional</td>
-                        <td>Conference</td>
-                        <td>Super Bowl</td>
-                        <td>SB Score</td>
-                        <td>WC Points (x1)</td>
-                        <td>Div Points (x3)</td>
-                        <td>Conf Points (x5)</td>
-                        <td>SB Points (x7)</td>
-                        <td>Points</td>
+                </thead>
+                <tbody>
+                    <tr class="text-gray-300 font-semibold uppercase text-center bg-gray-50 border dark:bg-gray-700 dark:text-gray-100">
+                        <td class="px-2 py-2"></td>
+                        <td class="px-2 py-2">Wild Card</td>
+                        <td class="px-2 py-2">Divisional</td>
+                        <td class="px-2 py-2">Conference</td>
+                        <td class="px-2 py-2">Super Bowl</td>
+                        <td class="px-2 py-2">SB Score</td>
+                        <td class="px-2 py-2">WC Points (x1)</td>
+                        <td class="px-2 py-2">Div Points (x3)</td>
+                        <td class="px-2 py-2">Conf Points (x5)</td>
+                        <td class="px-2 py-2">SB Points (x7)</td>
+                        <td class="px-2 py-2">Points</td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>David</td>
                         <td>CLE, KC, BUF, TB, DET, DAL</td>
                         <td>BAL, KC, SF, DET</td>
@@ -198,7 +192,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Jr</td>
                         <td>CLE, KC, BUF, PHI, LAR, DAL</td>
                         <td>BAL, BUF, LAR, DAL</td>
@@ -211,7 +205,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Cristian</td>
                         <td>HOU, MIA, BUF, PHI, LAR, GB</td>
                         <td>BAL, BUF, SF, PHI</td>
@@ -224,7 +218,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Jorge</td>
                         <td>HOU, KC, PITT, PHI, DET, GB</td>
                         <td>BAL, KC, SF, PHI</td>
@@ -237,7 +231,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Alan</td>
                         <td>CLE, MIA, BUF, TB, DET, DAL</td>
                         <td>BUF, CLE, SF, DAL</td>
@@ -250,7 +244,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Adrian</td>
                         <td>CLE, MIA, BUF, PHI, LAR, DAL</td>
                         <td>BAL, CLE, SF, DAL</td>
@@ -263,7 +257,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Stephen</td>
                         <td>CLE, KC, BUF, TB, DET, DAL</td>
                         <td>BAL, BUF, SF, DAL</td>
@@ -276,7 +270,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Brian</td>
                         <td>CLE, KC, BUF, PHI, DET, DAL</td>
                         <td>BAL, BUF, SF, DAL</td>
@@ -289,7 +283,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Chad M</td>
                         <td>CLE, MIA, BUF, PHI, DET, DAL</td>
                         <td>BAL, BUF, SF, DAL</td>
@@ -302,7 +296,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Chad K</td>
                         <td>CLE, KC, BUF, TB, DET, DAL</td>
                         <td>BAL, BUF, SF, DAL</td>
@@ -315,7 +309,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Kenny</td>
                         <td>CLE, KC, BUF, TB, DET, DAL</td>
                         <td>BAL, BUF, SF, DAL</td>
@@ -328,7 +322,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Simone</td>
                         <td>CLE, KC, BUF, PHI, LAR, GB</td>
                         <td>BAL, BUF, SF, LAR</td>
@@ -341,7 +335,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Darren</td>
                         <td>CLE, KC, BUF, TB, LAR, DAL</td>
                         <td>CLE, BUF, SF, DAL</td>
@@ -354,7 +348,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Mike K</td>
                         <td>CLE, KC, BUF, PHI, DET, DAL</td>
                         <td>BAL, BUF, SF, DET</td>
@@ -367,7 +361,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Mike C</td>
                         <td>CLE, KC, BUF, PHI, DET, DAL</td>
                         <td>BAL, BUF, SF, DAL</td>
@@ -380,7 +374,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Ryan</td>
                         <td>HOU, KC, BUF, PHI, LAR, DAL</td>
                         <td>BAL, BUF, SF, DAL</td>
@@ -393,7 +387,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Derek</td>
                         <td>HOU, KC, BUF, TB, DET, DAL</td>
                         <td>BAL, KC, SF, DET</td>
@@ -406,7 +400,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Daniel</td>
                         <td>CLE, KC, BUF, TB, LAR, DAL</td>
                         <td>BAL, BUF, SF, DAL</td>
@@ -419,7 +413,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Danny</td>
                         <td>HOU, MIA, BUF, PHI, DET, DAL</td>
                         <td>BAL, BUF, SF, DET</td>
@@ -432,7 +426,7 @@
                         <td></td>
                         <td></td>
                     </tr>
-                    <tr>
+                    <tr class="border text-center dark:bg-gray-300 dark:text-gray-700">
                         <td>Debbie</td>
                         <td>CLE, MIA, BUF, TB, DET, DAL</td>
                         <td>BAL, BUF, SF, DET</td>
